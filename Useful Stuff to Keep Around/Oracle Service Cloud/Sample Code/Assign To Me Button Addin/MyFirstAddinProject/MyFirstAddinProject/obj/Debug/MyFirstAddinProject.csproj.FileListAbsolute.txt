@@ -1,0 +1,10 @@
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\MyFirstAddinProject\MyFirstAddinProject\bin\Debug\MyFirstAddinProject.dll
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\MyFirstAddinProject\MyFirstAddinProject\bin\Debug\MyFirstAddinProject.pdb
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\MyFirstAddinProject\MyFirstAddinProject\bin\Debug\RightNow.AddIns.AddInViews.dll
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\MyFirstAddinProject\MyFirstAddinProject\bin\Debug\RightNow.AddIns.AddInViews.xml
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\MyFirstAddinProject\MyFirstAddinProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\MyFirstAddinProject\MyFirstAddinProject\obj\Debug\MyFirstAddinProject.Properties.Resources.resources
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\MyFirstAddinProject\MyFirstAddinProject\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\MyFirstAddinProject\MyFirstAddinProject\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\MyFirstAddinProject\MyFirstAddinProject\obj\Debug\MyFirstAddinProject.dll
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\MyFirstAddinProject\MyFirstAddinProject\obj\Debug\MyFirstAddinProject.pdb

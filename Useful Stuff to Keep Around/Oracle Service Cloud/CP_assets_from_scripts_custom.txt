@@ -1,0 +1,1 @@
+Custom scripts can access CP assets at /vhosts/[intf]/euf/assets (replace [intf] with the interface name).

@@ -1,0 +1,10 @@
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\AssignToMe\AssignToMe\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\AssignToMe\AssignToMe\obj\Debug\AssignToMe.Properties.Resources.resources
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\AssignToMe\AssignToMe\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\AssignToMe\AssignToMe\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\AssignToMe\AssignToMe\bin\Debug\AssignToMe.dll
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\AssignToMe\AssignToMe\bin\Debug\AssignToMe.pdb
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\AssignToMe\AssignToMe\bin\Debug\RightNow.AddIns.AddInViews.dll
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\AssignToMe\AssignToMe\bin\Debug\RightNow.AddIns.AddInViews.xml
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\AssignToMe\AssignToMe\obj\Debug\AssignToMe.dll
+C:\Users\mwaldron\Documents\Upgrades\Coding For Managers\Assign To Me Button Addin\AssignToMe\AssignToMe\obj\Debug\AssignToMe.pdb

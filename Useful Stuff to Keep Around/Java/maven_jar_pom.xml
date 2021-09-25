@@ -1,0 +1,21 @@
+<project>
+  <!-- ... -->
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>2.1</version>
+        <configuration>
+          <archive>
+            <manifestEntries>
+              <Manifest-Version>1.8</Manifest-Version>
+              <Main-Class>solutions.helix.App</Main-Class> <!-- replace value with your main class name -->
+            </manifestEntries>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <!-- ... -->
+</project>

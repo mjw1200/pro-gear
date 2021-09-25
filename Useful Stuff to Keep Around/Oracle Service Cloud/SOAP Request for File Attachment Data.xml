@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header>
+        <ns7:ClientInfoHeader xmlns:ns7="urn:messages.ws.rightnow.com/v1_2" soapenv:mustUnderstand="0">
+            <ns7:AppID>Basic Get File Data</ns7:AppID>
+        </ns7:ClientInfoHeader>
+        <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" mustUnderstand="1">
+            <wsse:UsernameToken>
+                <wsse:Username>addin_account</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">ZNQuiLvJn6V9</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+        <ns7:GetFileData xmlns:ns7="urn:messages.ws.rightnow.com/v1_2">
+            <ns7:RNObject xmlns:ns4="urn:objects.ws.rightnow.com/v1_2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns4:Incident">
+                <ID xmlns="urn:base.ws.rightnow.com/v1_2" id="1009"/>
+            </ns7:RNObject>
+            <ns7:FileID id="881"/>
+            <ns7:DisableMTOM>true</ns7:DisableMTOM>
+        </ns7:GetFileData>
+    </soapenv:Body>
+</soapenv:Envelope>

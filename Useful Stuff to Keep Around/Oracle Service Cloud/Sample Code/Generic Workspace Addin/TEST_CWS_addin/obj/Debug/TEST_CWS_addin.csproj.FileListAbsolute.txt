@@ -1,0 +1,9 @@
+D:\Documents\Upgrades\Code\Generic Workspace Addin\TEST_CWS_addin\bin\Debug\TEST_CWS_addin.dll.config
+D:\Documents\Upgrades\Code\Generic Workspace Addin\TEST_CWS_addin\bin\Debug\TEST_CWS_addin.dll
+D:\Documents\Upgrades\Code\Generic Workspace Addin\TEST_CWS_addin\bin\Debug\TEST_CWS_addin.pdb
+D:\Documents\Upgrades\Code\Generic Workspace Addin\TEST_CWS_addin\bin\Debug\RightNow.AddIns.AddInViews.dll
+D:\Documents\Upgrades\Code\Generic Workspace Addin\TEST_CWS_addin\obj\Debug\TEST_CWS_addin.AssignButton.resources
+D:\Documents\Upgrades\Code\Generic Workspace Addin\TEST_CWS_addin\obj\Debug\TEST_CWS_addin.Properties.Resources.resources
+D:\Documents\Upgrades\Code\Generic Workspace Addin\TEST_CWS_addin\obj\Debug\TEST_CWS_addin.csproj.GenerateResource.Cache
+D:\Documents\Upgrades\Code\Generic Workspace Addin\TEST_CWS_addin\obj\Debug\TEST_CWS_addin.dll
+D:\Documents\Upgrades\Code\Generic Workspace Addin\TEST_CWS_addin\obj\Debug\TEST_CWS_addin.pdb

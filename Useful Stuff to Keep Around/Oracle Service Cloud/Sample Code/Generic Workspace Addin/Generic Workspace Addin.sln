@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Workspace Addin", "TEST_CWS_addin\Generic Workspace Addin.csproj", "{E3021B87-7E44-4F24-A874-C31AF622BDDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3021B87-7E44-4F24-A874-C31AF622BDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3021B87-7E44-4F24-A874-C31AF622BDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3021B87-7E44-4F24-A874-C31AF622BDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3021B87-7E44-4F24-A874-C31AF622BDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

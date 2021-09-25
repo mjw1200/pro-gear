@@ -1,0 +1,2 @@
+(artifactId is the name of your app, and the name of the directory)
+mvn archetype:generate -DgroupId=solutions.helix -DartifactId=q6 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false

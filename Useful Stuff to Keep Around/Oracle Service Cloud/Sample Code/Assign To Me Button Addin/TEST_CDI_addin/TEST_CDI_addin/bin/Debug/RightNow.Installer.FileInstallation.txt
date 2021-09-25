@@ -1,0 +1,34 @@
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] Initial installation list follows:
+    DateTime=2012-10-08T20:46:31.7271014Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\DevelopDotNet.Compression.dll
+    DateTime=2012-10-08T20:46:31.7271014Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\Installer.log.txt
+    DateTime=2012-10-08T20:46:31.7271014Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\InstallerManifest.xml
+    DateTime=2012-10-08T20:46:31.7371016Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\Microsoft.Net.BITS.dll
+    DateTime=2012-10-08T20:46:31.7371016Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RightNow.AppDomainFactory.dll
+    DateTime=2012-10-08T20:46:31.7371016Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RightNow.InitEngine.exe
+    DateTime=2012-10-08T20:46:31.7371016Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RightNow.InitEngine.exe.config
+    DateTime=2012-10-08T20:46:31.7371016Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RightNow.Installer.FileInstallation.txt
+    DateTime=2012-10-08T20:46:31.7371016Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RightNow.Installer.Interface.dll
+    DateTime=2012-10-08T20:46:31.7371016Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RightNow.Installer.Model.dll
+    DateTime=2012-10-08T20:46:31.7471018Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RightNow.Installer.Strings.dll
+    DateTime=2012-10-08T20:46:31.7471018Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RightNow.Installer.UI.dll
+    DateTime=2012-10-08T20:46:31.7471018Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RightNow.Interface.InitEngineToAppController.dll
+    DateTime=2012-10-08T20:46:31.7471018Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RN_COM\Redemption.dll
+    DateTime=2012-10-08T20:46:31.7471018Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] C:\Users\kevin.dirkson\AppData\Roaming\RightNow_Technologies\arpc_upg\InitEngine\RN_COM\RightNow.Redemption.zip
+    DateTime=2012-10-08T20:46:31.7471018Z
+RightNow.Installer.FileInstallation Information: 1 : [RightNow.Installer.FileInstallation] Completed initial file listing. Newly downloaded files will appear below.
+    DateTime=2012-10-08T20:46:31.7471018Z

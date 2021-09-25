@@ -1,0 +1,46 @@
+Contact.Emails.Emaillist.Addresstype:
+  "Email - Primary" (0)
+  "Alternate Email 1" (1)
+  "Alternate Email 2" (2)
+
+Contact.Phones.Phonelist.Phonetype:
+  "Office Phone" (0)
+  "Mobile Phone" (1)
+  "Fax Phone" (2)
+  "Assistant Phone" (3)
+  "Home Phone" (4)
+
+Incident.Threads.Threadlist.Entrytype:
+  "Note" (1)
+  "Staff Account" (2)
+  "Customer" (3)
+  "Customer Proxy" (4)
+  "Chat" (5)
+  "Rule Response" (6)
+  "Rule Response Template" (7)
+  "Voice Integration" (8)
+
+StandardContent.ContentValues.ContentType
+  "Text" (1)
+  "HTML" (2)
+
+Report Filter Operators
+  Name                       | Operator      | ID
+  "Equal"                    | =             |  1
+  "Not Equal"                | <>            |  2
+  "Less Than"                | <             |  3
+  "Less Than or Equal to"    | <=            |  4
+  "Greater Than"             | >             |  5
+  "Greater Than or Equal to" | >=            |  6
+  "Is Like"                  | LIKE          |  7
+  "Is Not Like"              | NOT LIKE      |  8
+  "Is Between"               | RANGE         |  9
+  "Is In List"               | IN LIST       | 10
+  "Is Not In List"           | NOT IN LIST   | 11
+  "IS NULL"                  | IS NULL       | 12
+  "IS NOT NULL"              | IS NOT NULL   | 13
+  "Not Equal To or NULL"     | NE_OR_NULL    | 14
+  "Not Like or NULL"         | NLIKE_OR_NULL | 15
+  "Regular Expression"       | REGEX         | 19
+  "Not Regular Expression"   | NOT REGEX     | 20
+  "Logical AND"              | &             | 24

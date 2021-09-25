@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C0C2DF3-9263-4B4E-870E-8D63A1A4CAB1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AddInSamples</RootNamespace>
+    <AssemblyName>AddInSamples</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RightNow.AddIns.AddInViews">
+      <HintPath>..\..\..\..\..\..\..\..\Documents and Settings\chris.omland\Application Data\RightNow_Technologies\comland_10_11_10_26\SiteFiles\AddInPipeline\AddInViews\RightNow.AddIns.AddInViews.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AddIn" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application Menu\ApplicationMenuAddIn.cs" />
+    <Compile Include="Report Record Command\ReportRecordCommandAddIn.cs" />
+    <Compile Include="SingletonContext.cs" />
+    <Compile Include="Events\ConsoleOpenCloseEventAddIn.cs" />
+    <Compile Include="Events\LoginLogoutEventAddIn.cs" />
+    <Compile Include="Global Ribbon\ContactIdCollectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Global Ribbon\ContactIdCollectionForm.Designer.cs">
+      <DependentUpon>ContactIdCollectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global Ribbon\GlobalRibbonAddIn.cs" />
+    <Compile Include="Navigation Item\ContentPaneAddIn.cs" />
+    <Compile Include="Navigation Item\NavigationItemAddIn.cs" />
+    <Compile Include="Navigation Item\WebBrowserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation Item\WebBrowserControl.Designer.cs">
+      <DependentUpon>WebBrowserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation Section\LaunchNotePadUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation Section\LaunchNotePadUserControl.Designer.cs">
+      <DependentUpon>LaunchNotePadUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation Section\NavigationSectionAddIn.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Report Dashboard\PictureBoxUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Report Dashboard\PictureBoxUserControl.Designer.cs">
+      <DependentUpon>PictureBoxUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report Dashboard\ReportDashboardAddIn.cs" />
+    <Compile Include="Status Bar\ContentPaneAddIn.cs" />
+    <Compile Include="Status Bar\FeedDisplayThread.cs" />
+    <Compile Include="Status Bar\LinkLabelDisplayUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Status Bar\LinkLabelDisplayUserControl.Designer.cs">
+      <DependentUpon>LinkLabelDisplayUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Status Bar\RssFeedItem.cs" />
+    <Compile Include="Status Bar\RssFeedFetcher.cs" />
+    <Compile Include="Status Bar\StatusBarAddIn.cs" />
+    <Compile Include="Status Bar\WebBrowserUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Status Bar\WebBrowserUserControl.Designer.cs">
+      <DependentUpon>WebBrowserUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab Change\TabChangeAddInSamples.cs" />
+    <Compile Include="Tab Change\FocusOldTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab Change\FocusOldTabControl.Designer.cs">
+      <DependentUpon>FocusOldTabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Workspace Update\NoteUpdateUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Workspace Update\NoteUpdateUserControl.Designer.cs">
+      <DependentUpon>NoteUpdateUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Workspace Update\WorkspaceNoteUpdateAddIn.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Global Ribbon\ContactIdCollectionForm.resx">
+      <DependentUpon>ContactIdCollectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigation Item\WebBrowserControl.resx">
+      <DependentUpon>WebBrowserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigation Section\LaunchNotePadUserControl.resx">
+      <DependentUpon>LaunchNotePadUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report Dashboard\PictureBoxUserControl.resx">
+      <DependentUpon>PictureBoxUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status Bar\LinkLabelDisplayUserControl.resx">
+      <DependentUpon>LinkLabelDisplayUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status Bar\WebBrowserUserControl.resx">
+      <DependentUpon>WebBrowserUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab Change\FocusOldTabControl.resx">
+      <DependentUpon>FocusOldTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workspace Update\NoteUpdateUserControl.resx">
+      <DependentUpon>NoteUpdateUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddIn32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddIn16.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>mkdir "%25USERPROFILE%25\RightNowDev"
+mkdir "%25USERPROFILE%25\RightNowDev\AddIns"
+mkdir "%25USERPROFILE%25\RightNowDev\AddIns\$(ProjectName)"
+copy /Y "$(TargetDir)$(TargetName).*" "%25USERPROFILE%25\RightNowDev\AddIns\$(ProjectName)\"
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

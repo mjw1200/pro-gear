@@ -1,0 +1,13 @@
+You can retrieve optlists from the local cache!! See Jens and Aaron @Oracle 12/12/2017. Subject line is "multiple ROQL queries". Basically:
+
+    public void SomeMethod()
+    {
+        var prods = globalContext.GetOptlist(10);
+        var prod = prods.First(o => o.ID == 220);
+        Console.WriteLine("Name, parent ID: " + prod.Label + ", " + prod.ParentID);
+        return this;
+    }
+
+where prods is an IList<IOptlistItem> and prod is an IOptlistItem.
+
+The product optlist ID is 10 (shown here) - if you need categories instead that optlist ID is 13. This allows you to retrieve optlists (if you know the ID) without going to the server at all.

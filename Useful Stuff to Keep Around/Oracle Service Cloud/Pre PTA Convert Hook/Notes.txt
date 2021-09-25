@@ -1,0 +1,34 @@
+Useful for logging a contact into CP via PTA using any arbitrary custom field
+
+Here's what you need to authenticate:
+
+Array
+(
+    [data] => Array
+    (
+        [decodedData] => Array
+        (
+            [p_userid] => mikewaldron@helixmail.com
+            [p_first_name] => Mike
+            [p_last_name] => Waldron
+            [p_passwd] => password12345
+            [p_li_passwd] => mediacomcc_jan_13
+        )
+    )
+)
+
+But here's what you get coming in:
+
+Array
+(
+    [data] => Array
+    (
+        [decodedData] => Array
+        (
+            [p_li_passwd] => mediacomcc_jan_13
+            [p_ccf_1] => AB39E-12
+        )
+    )
+)
+
+You gotta do a lookup using the custom field value and use that info to populate the other fields.
