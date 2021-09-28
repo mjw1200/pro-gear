@@ -1,9 +1,8 @@
 ﻿namespace ConsoleApp1.Author
 {
-    interface IAuthor
+    public interface IAuthor
     {
-        int Id { get; set; }
-        string Firstname { get; set; }
-        string Lastname { get; set; }
+        IPerson Person { get; set; }
+        string[] Titles { get; set; }
     }
 }

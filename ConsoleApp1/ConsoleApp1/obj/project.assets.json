@@ -68,6 +68,18 @@
       "NUnit.Extension.VSProjectLoader/3.8.0": {
         "type": "package"
       },
+      "NUnit.Should/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "2.5.9.10348"
+        },
+        "compile": {
+          "lib/NET30/NUnit.Should.dll": {}
+        },
+        "runtime": {
+          "lib/NET30/NUnit.Should.dll": {}
+        }
+      },
       "NUnit3TestAdapter/4.0.0": {
         "type": "package",
         "build": {
@@ -168,6 +180,18 @@
       },
       "NUnit.Extension.VSProjectLoader/3.8.0": {
         "type": "package"
+      },
+      "NUnit.Should/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "2.5.9.10348"
+        },
+        "compile": {
+          "lib/NET30/NUnit.Should.dll": {}
+        },
+        "runtime": {
+          "lib/NET30/NUnit.Should.dll": {}
+        }
       },
       "NUnit3TestAdapter/4.0.0": {
         "type": "package",
@@ -405,6 +429,24 @@
         "tools/vs-project-loader.dll"
       ]
     },
+    "NUnit.Should/1.0.2": {
+      "sha512": "johUVWcJAODvazhVlRdfuFLHSkrZaUCzPbvL7icQT5Edula+c/UIvKeD+onQ4cgchoUYE0vAYwC5viGuj87GDA==",
+      "type": "package",
+      "path": "nunit.should/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.markdown",
+        "lib/NET20/NUnit.Should.dll",
+        "lib/NET30/NUnit.Should.dll",
+        "nunit.should.1.0.2.nupkg.sha512",
+        "nunit.should.nuspec",
+        "src/AssemblyInfo.cs",
+        "src/ExtensionAttribute.cs",
+        "src/HelperMethods.cs",
+        "src/NUnit.Should.cs"
+      ]
+    },
     "NUnit3TestAdapter/4.0.0": {
       "sha512": "5gCkytgQWL93M5s9Rnl4CfSUhn95VsuMVLYjmZe8K7dNRF7kzrBMPsBTyLNCga5qLW7RM/o591J+HVrV1QMaVQ==",
       "type": "package",
@@ -502,6 +544,7 @@
       "Moq >= 4.16.1",
       "NUnit >= 3.13.2",
       "NUnit.Console >= 3.12.0",
+      "NUnit.Should >= 1.0.2",
       "NUnit3TestAdapter >= 4.0.0"
     ]
   },
@@ -555,6 +598,10 @@
           "NUnit.Console": {
             "target": "Package",
             "version": "[3.12.0, )"
+          },
+          "NUnit.Should": {
+            "target": "Package",
+            "version": "[1.0.2, )"
           },
           "NUnit3TestAdapter": {
             "target": "Package",
