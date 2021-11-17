@@ -21,7 +21,7 @@
             header.VATinvoicereferencenumber = "vatinvrefno";
             header.VATtaxamountrate = 79.12;
 
-            Product[] products = new Product[2];
+            List<Product> products = new List<Product>();
 
             Product product = new Product();
             product.ItemCommodityCode = "itcomcode";
@@ -32,6 +32,7 @@
             product.Quantity = 32.1;
             product.UnitCost = 17.2;
             product.UnitofMeasureCode = "unmeascod";
+            products.Add(product);
 
             Product product1 = new Product();
             product1.ItemCommodityCode = "itcomcode1";
@@ -42,22 +43,20 @@
             product1.Quantity = 31.2;
             product1.UnitCost = 12.7;
             product1.UnitofMeasureCode = "unmeascod1";
-
-            products[0] = product;
-            products[1] = product1;
+            products.Add(product1);
 
             List<Note> notes = new List<Note>();
             Note note = new Note();
             note.Note1 = "moo";
+            notes.Add(note);
 
             Note note1 = new Note();
             note1.Note1 = "quack";
-
-            notes.AddRange(new List<Note>() { note, note1 });
+            notes.Add(note1);
 
             l3.Header = header;
-            l3.Products = products;
-            l3.Notes = notes;
+            l3.Products = products.ToArray();
+            l3.Notes = notes.ToArray();
 
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(LevelIIIData));
 
