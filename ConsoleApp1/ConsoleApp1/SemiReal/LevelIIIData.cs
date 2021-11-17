@@ -1,8 +1,5 @@
 ﻿namespace Insite.PaymentGateway.Cenpos.Level3
 {
-    using System.Xml.Serialization;
-
-    [XmlRoot("LevelIIIData")]
     public class LevelIIIData
     {
         public Header Header { get; set; }

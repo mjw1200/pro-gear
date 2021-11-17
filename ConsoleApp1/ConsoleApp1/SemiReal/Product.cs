@@ -1,7 +1,5 @@
 ﻿namespace Insite.PaymentGateway.Cenpos.Level3
 {
-    using System.Xml.Serialization;
-
     public class Product
     {
         public string ItemCommodityCode { get; set; }
