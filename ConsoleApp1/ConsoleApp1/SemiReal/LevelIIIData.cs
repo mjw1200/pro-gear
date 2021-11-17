@@ -3,15 +3,13 @@
     using System.Collections.Generic;
     using System.Xml.Serialization;
 
+    [XmlRoot("LevelIIIData")]
     public class LevelIIIData
     {
-        [XmlElement]
         public Header Header { get; set; }
 
-        [XmlElement]
-        public List<Product> Products { get; set; }
+        public Product[] Products { get; set; }
 
-        [XmlElement]
         public List<Note> Notes { get; set; }
     }
 }
