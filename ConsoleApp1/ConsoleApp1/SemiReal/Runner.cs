@@ -47,11 +47,11 @@
 
             List<Note> notes = new List<Note>();
             Note note = new Note();
-            note.Note1 = "moo";
+            note.Text = "moo";
             notes.Add(note);
 
             Note note1 = new Note();
-            note1.Note1 = "quack";
+            note1.Text = "quack";
             notes.Add(note1);
 
             l3.Header = header;

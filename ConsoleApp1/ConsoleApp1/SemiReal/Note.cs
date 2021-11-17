@@ -4,7 +4,6 @@
 
     public class Note
     {
-        [XmlElement("Note")]
-        public string Note1 { get; set; }
+        public string Text { get; set; }
     }
 }
