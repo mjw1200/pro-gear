@@ -21,9 +21,5 @@ namespace ConsoleApp1
                             .AddScoped<IMessageWriter, LoggingMessageWriter>()
                             .AddHostedService<Jerker>()
                             .AddScoped<IMjwMessageWriter, MjwMessageWriter>());
-
-                //.ConfigureServices((_, services) =>
-                //    services.AddHostedService<Jerker>()
-                //            .AddScoped<IMjwMessageWriter, MjwMessageWriter>());
     }
 }
