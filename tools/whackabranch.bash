@@ -1,17 +1,17 @@
 #!/bin/bash
 
-if [ $# -ne 1 ]; then
-  echo "Usage: $0 [branch_name]"
+if [ $# -ne 3 ]; then
+  echo "Usage: $0 [repo dir] [default branch name] [victim branch name]"
   exit 1
 fi
 
-victimBranch=$1
+victimBranch=$3
 victimExists=0
 
-pushd insite-commerce > /dev/null 2>&1
+pushd $1 > /dev/null 2>&1
 
-git checkout dev > /dev/null 2>&1
-for branch in `git branch -a | grep $1 | sed 's/remotes\/origin\///' | sort | uniq`
+git checkout $2 > /dev/null 2>&1
+for branch in `git branch -a | grep $3 | sed 's/remotes\/origin\///' | sort | uniq`
 do
   if [ $victimBranch = $branch ]; then
     victimExists=1
